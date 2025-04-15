@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "msedge",
+            "file": "${file}",
+            "webRoot": "${workspaceFolder}"
+        },
+    {
+        "name": "Launch Chrome",
+        "request": "launch",
+        "type": "chrome",
+        "file": "${file}",
+        "webRoot": "${workspaceFolder}"
+    }
+    ]
+}
