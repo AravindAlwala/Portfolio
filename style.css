@@ -1007,6 +1007,8 @@ body {
     .about-text p {
         margin-left:1cm;
         margin-right:1cm;
+        padding-left:20px;
+        padding-right:20px
         font-size: 15px;
         line-height: 1.5;
         letter-spacing: 1px;
