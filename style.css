@@ -1005,7 +1005,7 @@ body {
     }
     
     .about-text p {
-/*         margin-left:1cm;
+        margin-left:1cm;
         margin-right:1cm;
         padding-left:20px;
         padding-right:20px
@@ -1014,15 +1014,7 @@ body {
         letter-spacing: 0.2px;
         word-spacing:1px;
         margin-bottom: 4rem;
-        text-align:justify; */
-        margin: 0 auto;
-    padding: 10px 15px;
-    font-size: 14px;
-    line-height: 1.6;
-    letter-spacing: 0.5px;
-    word-spacing: 1.5px;
-    text-align: justify;
-    max-width: 90%
+        text-align:justify; 
     }
     .abtbtn-box:hover {
         box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
