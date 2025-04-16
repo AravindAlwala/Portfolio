@@ -214,6 +214,7 @@ body {
 }
 
 .about-text h2 {
+    text-align: center;
     color: #000;
     font-size: 60px;
     letter-spacing: 5px;
