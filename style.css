@@ -910,13 +910,13 @@ body {
     }
 }
 
-/*  @media (max-width: 700px) and (min-width: 400px) {
+ @media (max-width: 700px) and (min-width: 400px) {
     *{
         overflow-x: hidden;
         overflow-y: inherit; 
     } 
     /*navbar*/
-    /* .header{
+     .header{
         display:block;
         
     }
@@ -941,7 +941,7 @@ body {
         white-space: pre;
     }
 
- @media (max-width: 700px) and (min-width: 400px) {
+/*  @media (max-width: 700px) and (min-width: 400px) {
         * {
             overflow-x: hidden;
         }
@@ -967,9 +967,9 @@ body {
             white-space: nowrap;
             gap: 10px;
             scrollbar-width: none; /* Firefox */
-        }*/
+        }
     
-        /*.navbar::-webkit-scrollbar {
+       /* .navbar::-webkit-scrollbar {
             display: none;
         }
     
@@ -980,81 +980,13 @@ body {
             margin-left: 0;
             flex-shrink: 0;
             text-align: center;
-        }
+        } */
     
-         Remove line breaks 
+        /* Remove line breaks */
         .navbar a::after {
             content: "";
         }
     }*/
-    @media screen and (max-width: 768px) {
-  /* Center skills section */
-  .skills {
-    text-align: center;
-    padding: 30px 10px;
-  }
-
-  .skills h2 {
-    font-size: 28px;
-  }
-
-  .skills .technical-bars .bar {
-    margin: 20px auto;
-    width: 90%;
-  }
-
-  .skills .technical-bars .bar .info {
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-  }
-
-  /* Make progress bars responsive */
-  .skills .technical-bars .bar .progress-line {
-    width: 100%;
-  }
-
-  /* Navbar fixes */
-  nav {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
-  }
-
-  nav .navbar {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    background-color: #000;
-  }
-
-  nav .navbar a {
-    padding: 10px;
-    border-top: 1px solid #444;
-    width: 100%;
-  }
-
-  /* Hamburger visible on mobile */
-  #menu-icon {
-    display: block;
-  }
-
-  /* Show navbar when active */
-  nav.active .navbar {
-    display: flex;
-  }
-
-  /* Adjust text and layout */
-  section {
-    padding: 40px 10px;
-  }
-
-  .skills-content {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
 
     /*home*/
     .home{
