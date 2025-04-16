@@ -1010,8 +1010,9 @@ body {
         padding-left:20px;
         padding-right:20px
         font-size: 15px;
-        line-height: 1.5;
-        letter-spacing: 1px;
+        line-height: 1.7;
+        letter-spacing: 0.5px;
+        word-spacing:2px;
         margin-bottom: 4rem;
         text-align:justify;
     }
