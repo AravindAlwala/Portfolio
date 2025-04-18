@@ -909,51 +909,56 @@ body {
         opacity: 1;
     }
 }
-@media (max-width: 700px) and (min-width: 400px) {
-        * {
-            overflow-x: hidden;
-        }
-    
-        .header {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 5%;
-        }
-    
-        .logo {
-            font-size: 20px;
-            font-weight: 500;
-            text-align: center;
-        }
-    
-        .navbar {
-            display: flex;
-            flex-wrap: nowrap;
-            overflow-x: auto;
-            white-space: nowrap;
-            gap: 10px;
-            scrollbar-width: none; /* Firefox */
-        }
-    
-        .navbar::-webkit-scrollbar {
-            display: none;
-        }
-    
-        .navbar a {
-            font-size: clamp(13px, 2.2vw, 18px);
-            font-weight: 600;
-            padding: 6px 8px;
-            margin-left: 0;
-            flex-shrink: 0;
-            text-align: center;
-        }
-    
-        /* Remove line breaks */
-        .navbar a::after {
-            content: "";
-        }
+@media (max-width: 700px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 5%;
+    }
+
+    .logo {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        white-space: nowrap;
+        gap: 8px;
+        padding: 6px 0;
+        scrollbar-width: none; /* Firefox */
+    }
+
+    .navbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .navbar a {
+        font-size: 13px; /* Smaller font size for mobile */
+        font-weight: 500;
+        padding: 4px 6px;
+        margin: 0;
+        flex-shrink: 0;
+        text-align: center;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .navbar a::after {
+        content: "";
+    }
+
+
 
     /*home*/
     .home{
