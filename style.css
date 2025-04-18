@@ -1005,16 +1005,16 @@ body {
         min-height: auto;
     }
     .about-text h2 {
-        font-size: 60px;
+        font-size: 50px;
         letter-spacing: 5px;
     }
     
     .about-text p {
         margin-left:1cm;
         margin-right:1cm;
-        padding-left:20px;
-        padding-right:20px
-        font-size: 15px;
+        padding-left:15px;
+        padding-right:15px
+        font-size: 13px;
         line-height: 1.5;
         letter-spacing: 0.5px;
         word-spacing:1px;
