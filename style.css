@@ -1090,6 +1090,13 @@ body {
     .prj-list div{
         padding: 20px;
     }
+    /*certifications*/
+    .Certificatios .row img {
+        max-width: 90%;   /* scale to fit small screen */
+        max-height: none; /* remove artificial height limit */
+        width: auto;      /* allow natural width */
+        height: auto; 
+    }
     /*contact*/
     .contacts h2{
         font-size: 50px;
