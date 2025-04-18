@@ -1094,7 +1094,8 @@ body {
     .Certificatios .row img {
         max-width: 90%;   /* scale to fit small screen */
         max-height: none; /* remove artificial height limit */
-        width: auto;      /* allow natural width */
+        max-width: 400px;
+        max-height: 300px;
         height: auto; 
     }
     /*contact*/
